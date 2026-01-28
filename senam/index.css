@@ -1,0 +1,332 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial', 'sans-serif' ;
+}
+
+header {
+   background-color: #fcfaf8;
+   padding: 40px;
+   font-family: 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif';
+   border-bottom: 3px solid #251100;
+}
+header p{
+   color: #251100;
+   font-size: 40px;
+}
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+nav ul {
+   font-family: 'Humanist Sans-Serif';
+   list-style: none;
+   display: flex;
+   gap: 20px;
+   font-size: 20px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #251100;
+
+}
+
+nav ul li a:hover {
+   color: #ddd;
+}
+
+/* Hero Section */
+.hero {
+   height: 70vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-image: url(6025834551197764464_121.jpg);
+   background-size: cover;
+
+
+}
+
+.hero-h1 {
+   font-size: 65px;
+   text-align: center;
+   font-family: 'Modern Geometric Sans-Serif';
+   color: #fff;
+
+}
+
+.hero,
+p {
+   font-size: 20px;  
+   text-align: center;
+   color: #fff;
+   font-family: 'Humanist Sans-Serif';
+}
+
+/* Featured Inventory*/
+
+.featured-inventory-h2 {
+   font-size: 30px;
+   text-align: center;
+   color: #000000;
+   margin-top: 40px;
+}
+
+.featured-inventory-p {
+   margin: 20px 0 0 20px;
+   font-size: 20px;
+   text-align: center;
+   color: #868686;
+}
+
+.item-container {
+   display: flex;
+   flex-direction: row;
+   height: 400px;
+   margin: 25px;
+
+}
+
+.item-card {
+   height: auto;
+   width: auto;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 20px;
+   display: flex;
+   background: url(img.jpg);
+   justify-content: flex-end;
+   flex-direction: column;
+   transition: all 0.6s ease-in-out;
+}
+
+.item-card:hover {
+   transition: all 0.6s ease-in-out;
+   transform: translateY(-10px);
+}
+
+
+.item-card p {
+   text-align: left;
+   font-family: 'Modern Geometric Sans-Serif';
+   margin-left: 10px;
+}
+
+
+.item-status p{
+   text-align: left;
+   font-family: 'Modern Geometric Sans-Serif';
+   padding-left: 5px;
+}
+
+.item-status {
+   align-items: left;
+   background: #56e10bb8;
+   border-radius: 5px;
+   padding: 6px;
+   margin-right: 220px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 10px;  
+}
+
+/*Food and lifestyle*/
+
+.food-and-lifestyle{
+   background-color: #f7f7f7;
+   margin-top: 30px;
+}
+
+.food-and-lifestyle-header{
+   font-family: 'font-serif'  'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif';
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 50px;
+  
+}
+
+.food-and-lifestyle-header p{
+   color: #431c00;
+}
+
+.food-and-lifestyle-header p:hover{
+   color: #ea9203;
+}
+
+
+.food-and-lifestyle-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin: 20px;
+}
+
+.food-and-lifestyle-card{
+   width: 100%;
+   max-width: 380px;
+   padding: 40px 30px;
+   margin: 20px;
+   border-radius: 20px;
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: column;
+   text-align: left;
+   background-color: #fff;
+   transition: transform 1s;
+}
+
+.food-and-lifestyle-card:hover{
+   box-shadow: 5px 5px 20px #00000027;
+   transform: translateY(-10px);
+}
+
+
+.food-and-lifestyle-card h2{
+   font-size: 22px;
+   color: #0e0601;
+   text-align: left;
+   margin: 30px 0 20px 0;
+
+}
+.food-and-lifestyle-card p{
+   color: #9e9e9e;
+   text-align: left;
+   font-size: 18px;
+
+}
+.food-and-lifestyle-card span{
+   color: #9f4606;
+}
+
+.food-and-lifestyle-card span:hover{
+   color: #ea9203;
+}
+
+/* The light yellow circular background */
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #FFF9C4; 
+    border-radius: 50%;        
+    display: flex;             
+    align-items: center;
+    justify-content: center;
+}
+
+/* The dark leaf icon */
+.leaf-icon {
+    width: 25px;
+    height: 25px;
+    color: #3E2723; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+   background-color: #220f01;
+   font-family:'font-serif'  'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif' ;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+   border-top: 1px solid #000000;
+   height: 250px;
+}
+
+footer h2{
+   color: #fff;
+   margin-top: 20px;
+   margin: 40px;
+   font-size: 30px;
+}
+
+footer span{
+   font-size: 20px;
+   color: #ffffff;
+}
+
+footer p{
+   color: #6c5636;
+   margin: 10px;
+   font-size: 10px;
+}
+
+footer ul{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+}
+
+footer ul li a{
+   text-decoration: none;
+   color: #ffffff;
+}
+
+footer ul li a:hover{
+   color: #2a1a00;
+}
