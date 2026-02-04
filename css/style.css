@@ -553,6 +553,7 @@ footer ul li a:hover {
         align-items: center;
         justify-content: center;
         text-align: center;
+        font-size: 14px;
     }
 
     .order-table input[type="text"],
